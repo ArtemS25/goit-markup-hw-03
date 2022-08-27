@@ -125,24 +125,23 @@ img {
 }
 
 .contact-link-header {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
   color: currentColor;
 }
 /* Hero */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--hero-bgr-cl);
+}
 
-.container-hero {
-  display: block;
+.hero-title {
+  width: 696px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.hero-content {
-  background-color: var(--hero-bgr-cl);
-  margin-bottom: 94px;
-}
-.hero-title {
   margin-bottom: 30px;
   color: var(--light-txt-cl);
   font-weight: 900;
@@ -178,14 +177,19 @@ img {
 
 /* Особливості */
 
-.conteiner-features {
-  margin-bottom: 94px;
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
   display: flex;
   gap: 30px;
   list-style: none;
+}
+
+.features-item {
+  width: 270px;
 }
 
 .features-title {
@@ -202,14 +206,22 @@ img {
 }
 
 /* Чим ми займаємося */
+
+.group {
+  padding-bottom: 94px;
+}
+
+.container-group {
+  display: block;
+}
+
 .group-title {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
 }
 .group-list {
-  margin-bottom: 94px;
   gap: 30px;
   display: flex;
   list-style: none;
@@ -217,12 +229,22 @@ img {
 
 /* Наша команда */
 
-.our-team {
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--grey-bgr-cl);
 }
 
+.container-team {
+  display: block;
+}
+
+.team-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-title {
-  margin-top: 94px;
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -253,13 +275,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 /* Підвал */
 .footer {
   background-color: var(--footer-bgr-cl);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container-footer {
@@ -267,10 +289,11 @@ img {
 }
 
 .footer-list {
-  margin-top: 20px;
   list-style: none;
 }
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -310,12 +333,17 @@ img {
 }
 
 /* Portfolio */
-.portfolio-content {
+.content {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--light-txt-cl);
 }
 
+.container-content {
+  display: block;
+}
+
 .content-items {
-  margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -346,7 +374,6 @@ img {
 }
 
 .content-group {
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
