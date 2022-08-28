@@ -32,8 +32,6 @@
 }
 
 .container {
-  display: flex;
-  align-items: center;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -61,6 +59,12 @@ img {
   border-bottom: 1px solid #ececec;
   background-color: var(--light-txt-cl);
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -216,7 +220,7 @@ img {
 }
 
 .group-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -395,6 +399,7 @@ img {
 }
 
 .content-title {
+  margin-bottom: 4px;
   color: var(--main-txt-cl);
   font-size: 18px;
   line-height: calc(36 / 18);
